@@ -12,7 +12,7 @@ It is possible that the tone of emails changes depending in the relationship bet
 
 If successful, a company who wishes to ensure culture of consistent professionalism from all employees, even when talking internally, could use the classifier to flag employees who are overly informal when sending emails to external persons (indicated low specicifity) or internally (indicated by high sensitivity). This would work by passing a sample of individual employee's emails through the classifier to find their individual scores.
 
-A binary classifier of internally (only) vs externally viewed emails was created using an RNN which achieved a test accuracy of 0.9.
+A binary classifier of internally (only) vs externally viewed emails was created using an RNN which achieved a test accuracy of 0.97.
 
 Running the notebook is dependent on the following:
 
